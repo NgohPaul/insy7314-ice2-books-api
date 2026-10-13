@@ -1,0 +1,10 @@
+# Dependencies are installed with npm install, so they are not committed
+node_modules/
+
+# Environment variables can hold secrets, so they are not committed
+.env
+
+# Logs and OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
